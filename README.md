@@ -1,7 +1,9 @@
+# PlaneProjection
 [Live site](https://lucasdower.github.io/PlaneProjection/dist/index.html)
 
-# PlaneProjection
-A simple demo of 3D points being projected onto a 2D plane.
+<img src="https://imgur.com/xw6BwA3.png" width="500"/>
+
+A simple demo of 3D points being projected onto a rotatable 2D plane.
 
 ## Getting Started
 1. Clone this repo,
