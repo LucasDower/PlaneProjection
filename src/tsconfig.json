@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
+      "outDir": "./dist",
       "moduleResolution": "node",
-      "strict": true
+      "strict": true,
+      "sourceMap": true
   },
   "include": ["**/*.ts"]
 }

@@ -6,14 +6,17 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --config ./src/webpack.dev.js",
-    "lint": "eslint --fix ./src/*.ts"
+    "lint": "eslint --fix ./src/*.ts",
+    "build": "webpack --config ./src/webpack.prod.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/dat.gui": "^0.7.7",
     "@types/three": "^0.143.1",
     "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "dat.gui": "^0.7.9",
     "eslint": "^8.22.0",
     "eslint-config-standard-with-typescript": "^22.0.0",
     "eslint-plugin-import": "^2.26.0",
